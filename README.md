@@ -1,6 +1,6 @@
 # vitest-openapi
 
-[![npm](https://img.shields.io/npm/v/jest-openapi.svg)](https://www.npmjs.com/package/vitest-openapi)
+[![npm](https://img.shields.io/npm/v/vitest-openapi.svg)](https://www.npmjs.com/package/vitest-openapi)
 [![test](https://github.com/yutak23/vitest-openapi/actions/workflows/test.yaml/badge.svg)](https://github.com/yutak23/vitest-openapi/actions/workflows/test.yaml)
 ![style](https://img.shields.io/badge/code%20style-airbnb-ff5a5f.svg)
 [![included](https://badgen.net/npm/types/jest-openapi)](https://github.com/yutak23/vitest-openapi/blob/main/index.d.ts)
