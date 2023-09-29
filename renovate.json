@@ -1,0 +1,45 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [
+		"config:base",
+		"group:allNonMajor",
+		":separateMultipleMajorReleases",
+		"schedule:earlyMondays",
+		"schedule:automergeDaily",
+		":prConcurrentLimitNone",
+		":prHourlyLimitNone",
+		":timezone(Asia/Tokyo)"
+	],
+	"labels": ["renovate"],
+	"enabledManagers": ["npm"],
+	"major": { "labels": ["renovate", "update_major"] },
+	"platformAutomerge": true,
+	"packageRules": [
+		{
+			"description": "Automerge non-major updates",
+			"matchUpdateTypes": ["minor", "patch"],
+			"automerge": true
+		},
+		{
+			"matchPackageNames": [
+				"@tsconfig/node16",
+				"@tsconfig/recommended",
+				"@typescript-eslint/eslint-plugin",
+				"@typescript-eslint/parser",
+				"@vitest/coverage-v8",
+				"eslint",
+				"eslint-config-airbnb-base",
+				"eslint-config-airbnb-typescript",
+				"eslint-config-prettier",
+				"eslint-plugin-import",
+				"npm-check-updates",
+				"npm-run-all",
+				"prettier",
+				"typescript",
+				"vitest"
+			],
+			"rangeStrategy": "bump"
+		}
+	],
+	"ignoreDeps": []
+}
