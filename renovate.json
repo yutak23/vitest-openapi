@@ -22,11 +22,15 @@
 		},
 		{
 			"matchPackageNames": [
+				"jest-openapi",
+				"openapi-validator",
 				"@vitest/coverage-v8",
+				"app-root-path",
 				"eslint",
 				"eslint-config-airbnb-base",
 				"eslint-config-prettier",
 				"eslint-plugin-import",
+				"fs-extra",
 				"npm-check-updates",
 				"npm-run-all",
 				"prettier",
