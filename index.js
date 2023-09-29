@@ -8,16 +8,13 @@ const { makeApiSpec } = openapiValidator;
 export default (filepathOrObject, schemaName) => {
 	const openApiSpec = makeApiSpec(filepathOrObject);
 
+	console.log('openApiSpec', jestToSatisfyApiSpec);
+
 	expect.extend({
 		// eslint-disable-next-line no-unused-vars
-		toSatisfyApiSpec: (received, expected) =>
-			typeof jestToSatisfyApiSpec === 'function'
-				? jestToSatisfyApiSpec(received, openApiSpec)
-				: jestToSatisfyApiSpec.default(received, openApiSpec),
+		toSatisfyApiSpec: (received, expected) => jestToSatisfyApiSpec.default(received, openApiSpec),
 		// eslint-disable-next-line no-unused-vars
 		toSatisfySchemaInApiSpec: (received, expected) =>
-			typeof jestToSatisfySchemaInApiSpec === 'function'
-				? jestToSatisfySchemaInApiSpec(received, schemaName, openApiSpec)
-				: jestToSatisfySchemaInApiSpec.default(received, schemaName, openApiSpec)
+			jestToSatisfySchemaInApiSpec.default(received, schemaName, openApiSpec)
 	});
 };
