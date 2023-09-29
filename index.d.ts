@@ -2,6 +2,7 @@ import type { OpenAPISpecObject } from 'openapi-validator';
 
 interface CustomMatchers<R = unknown> {
 	toSatisfyApiSpec(): R;
+	toSatisfySchemaInApiSpec(schemaName: string): R;
 }
 
 declare module 'vitest' {
