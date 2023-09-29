@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] - 2023-09-29
+
+### Fixed
+
+- Fix console.log.
+
 ## [1.0.1] - 2023-09-29
 
 ### Fixed
@@ -15,3 +21,4 @@ All notable changes to this project will be documented in this file.
 - First release.
 
 [1.0.1]: https://github.com/yutak23/vitest-openapi/compare/v1.0.0...v1.0.1
+[1.0.2]: https://github.com/yutak23/vitest-openapi/compare/v1.0.1...v1.0.2

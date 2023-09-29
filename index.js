@@ -8,8 +8,6 @@ const { makeApiSpec } = openapiValidator;
 export default (filepathOrObject, schemaName) => {
 	const openApiSpec = makeApiSpec(filepathOrObject);
 
-	console.log('openApiSpec', jestToSatisfyApiSpec);
-
 	expect.extend({
 		// eslint-disable-next-line no-unused-vars
 		toSatisfyApiSpec: (received, expected) => jestToSatisfyApiSpec.default(received, openApiSpec),
