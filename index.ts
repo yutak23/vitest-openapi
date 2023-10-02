@@ -19,9 +19,7 @@ export default (filepathOrObject: string | OpenAPISpecObject): void => {
 	const openApiSpec = openapiValidator.makeApiSpec(filepathOrObject);
 
 	expect.extend({
-		// eslint-disable-next-line @typescript-eslint/no-unused-vars
-		toSatisfyApiSpec: (received: unknown, expected: unknown) =>
-			jestToSatisfyApiSpec.default(received, openApiSpec),
+		toSatisfyApiSpec: (received: unknown) => jestToSatisfyApiSpec.default(received, openApiSpec),
 		toSatisfySchemaInApiSpec: (received: unknown, schemaName: string) =>
 			jestToSatisfySchemaInApiSpec.default(received, schemaName, openApiSpec)
 	});
