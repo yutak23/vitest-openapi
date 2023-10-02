@@ -24,16 +24,23 @@
 			"matchPackageNames": [
 				"jest-openapi",
 				"openapi-validator",
+				"@tsconfig/node16",
+				"@tsconfig/recommended",
+				"@types/fs-extra",
+				"@typescript-eslint/eslint-plugin",
+				"@typescript-eslint/parser",
 				"@vitest/coverage-v8",
 				"app-root-path",
 				"eslint",
 				"eslint-config-airbnb-base",
+				"eslint-config-airbnb-typescript",
 				"eslint-config-prettier",
 				"eslint-plugin-import",
 				"fs-extra",
 				"npm-check-updates",
 				"npm-run-all",
 				"prettier",
+				"typescript",
 				"vitest"
 			],
 			"rangeStrategy": "bump"

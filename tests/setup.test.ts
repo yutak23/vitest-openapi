@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import appRootPath from 'app-root-path';
 import fs from 'fs-extra';
+import type { OpenAPISpecObject } from 'openapi-validator';
 
 import vitestOpenAPI from '../index.js';
 
@@ -10,28 +11,28 @@ const invalidArgErrorMessage =
 describe('jestOpenAPI(filepathOrObject)', () => {
 	describe('number', () => {
 		it('throws an error', () => {
-			const func = () => vitestOpenAPI(123);
+			const func = () => vitestOpenAPI(123 as never);
 			expect(func).toThrow(`${invalidArgErrorMessage}Received type 'number'`);
 		});
 	});
 
 	describe('array', () => {
 		it('throws an error', () => {
-			const func = () => vitestOpenAPI([]);
+			const func = () => vitestOpenAPI([] as never);
 			expect(func).toThrow(`${invalidArgErrorMessage}Received type 'array'`);
 		});
 	});
 
 	describe('object that is not an OpenAPI spec', () => {
 		it('throws an error', () => {
-			const func = () => vitestOpenAPI({});
+			const func = () => vitestOpenAPI({} as never);
 			expect(func).toThrow('Invalid OpenAPI spec: [');
 		});
 	});
 
 	describe('object that is an incomplete OpenAPI spec', () => {
 		it('throws an error', () => {
-			const func = () => vitestOpenAPI({ openapi: '3.0.0' });
+			const func = () => vitestOpenAPI({ openapi: '3.0.0' } as never);
 			expect(func).toThrow('Invalid OpenAPI spec: [');
 		});
 	});
@@ -39,7 +40,7 @@ describe('jestOpenAPI(filepathOrObject)', () => {
 	describe('object representing a valid OpenAPI spec', () => {
 		it("successfully extends jest's `expect`", () => {
 			const pathToApiSpec = appRootPath.resolve('/tests/exampleOpenApiFiles/valid/openapi3.json');
-			const apiSpec = fs.readJSONSync(pathToApiSpec);
+			const apiSpec = fs.readJSONSync(pathToApiSpec) as OpenAPISpecObject;
 			expect(() => vitestOpenAPI(apiSpec)).not.toThrow();
 		});
 	});
