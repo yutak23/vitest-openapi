@@ -29,11 +29,11 @@
 		"openapi-validator": "^0.14.2"
 	},
 	"devDependencies": {
-		"@tsconfig/node16": "^16.1.1",
-		"@tsconfig/recommended": "^1.0.3",
+		"@tsconfig/node16": "^16.1.2",
+		"@tsconfig/recommended": "^1.0.4",
 		"@types/fs-extra": "^11.0.4",
-		"@typescript-eslint/eslint-plugin": "^7.2.0",
-		"@typescript-eslint/parser": "^7.2.0",
+		"@typescript-eslint/eslint-plugin": "^7.4.0",
+		"@typescript-eslint/parser": "^7.4.0",
 		"@vitest/coverage-v8": "^1.4.0",
 		"app-root-path": "^3.1.0",
 		"eslint": "^8.57.0",
@@ -42,10 +42,10 @@
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-import": "^2.29.1",
 		"fs-extra": "^11.2.0",
-		"npm-check-updates": "^16.14.17",
+		"npm-check-updates": "^16.14.18",
 		"npm-run-all2": "^6.0.0",
 		"prettier": "^3.2.5",
-		"typescript": "^5.4.2",
+		"typescript": "^5.4.3",
 		"vitest": "^1.4.0"
 	},
 	"files": [
