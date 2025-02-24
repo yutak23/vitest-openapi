@@ -34,7 +34,7 @@
 		"@types/fs-extra": "^11.0.4",
 		"@typescript-eslint/eslint-plugin": "^7.18.0",
 		"@typescript-eslint/parser": "^7.18.0",
-		"@vitest/coverage-v8": "^3.0.5",
+		"@vitest/coverage-v8": "^3.0.7",
 		"app-root-path": "^3.1.0",
 		"eslint": "^8.57.1",
 		"eslint-config-airbnb-base": "^15.0.0",
@@ -42,11 +42,11 @@
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-import": "^2.31.0",
 		"fs-extra": "^11.3.0",
-		"npm-check-updates": "^17.1.14",
+		"npm-check-updates": "^17.1.15",
 		"npm-run-all2": "^7.0.0",
-		"prettier": "^3.5.1",
+		"prettier": "^3.5.2",
 		"typescript": "^5.7.3",
-		"vitest": "^3.0.5"
+		"vitest": "^3.0.7"
 	},
 	"files": [
 		"dist"
