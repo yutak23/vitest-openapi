@@ -42,7 +42,7 @@
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-import": "^2.32.0",
 		"fs-extra": "^11.3.0",
-		"npm-check-updates": "^17.1.18",
+		"npm-check-updates": "^18.0.1",
 		"npm-run-all2": "^7.0.0",
 		"prettier": "^3.6.0",
 		"typescript": "^5.8.3",
