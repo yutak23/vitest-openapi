@@ -47,15 +47,15 @@ vitestOpenAPI('path/to/openapi.yml');
 
 // Write your test
 describe('GET /example/endpoint', () => {
-	it('should satisfy OpenAPI spec', async () => {
-		// Get an HTTP response from your server (e.g. using axios)
-		const res = await axios.get('http://localhost:3000/example/endpoint');
+  it('should satisfy OpenAPI spec', async () => {
+    // Get an HTTP response from your server (e.g. using axios)
+    const res = await axios.get('http://localhost:3000/example/endpoint');
 
-		expect(res.status).toEqual(200);
+    expect(res.status).toEqual(200);
 
-		// Assert that the HTTP response satisfies the OpenAPI spec
-		expect(res).toSatisfyApiSpec();
-	});
+    // Assert that the HTTP response satisfies the OpenAPI spec
+    expect(res).toSatisfyApiSpec();
+  });
 });
 ```
 

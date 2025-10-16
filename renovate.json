@@ -1,50 +1,50 @@
 {
-	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": [
-		"config:base",
-		"group:allNonMajor",
-		":separateMultipleMajorReleases",
-		"schedule:earlyMondays",
-		"schedule:automergeDaily",
-		":prConcurrentLimitNone",
-		":prHourlyLimitNone",
-		":timezone(Asia/Tokyo)"
-	],
-	"labels": ["renovate"],
-	"enabledManagers": ["npm"],
-	"major": { "labels": ["renovate", "update_major"] },
-	"platformAutomerge": true,
-	"packageRules": [
-		{
-			"description": "Automerge non-major updates",
-			"matchUpdateTypes": ["minor", "patch"],
-			"automerge": true
-		},
-		{
-			"matchPackageNames": [
-				"jest-openapi",
-				"openapi-validator",
-				"@tsconfig/node16",
-				"@tsconfig/recommended",
-				"@types/fs-extra",
-				"@typescript-eslint/eslint-plugin",
-				"@typescript-eslint/parser",
-				"@vitest/coverage-v8",
-				"app-root-path",
-				"eslint",
-				"eslint-config-airbnb-base",
-				"eslint-config-airbnb-typescript",
-				"eslint-config-prettier",
-				"eslint-plugin-import",
-				"fs-extra",
-				"npm-check-updates",
-				"npm-run-all",
-				"prettier",
-				"typescript",
-				"vitest"
-			],
-			"rangeStrategy": "bump"
-		}
-	],
-	"ignoreDeps": []
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    "group:allNonMajor",
+    ":separateMultipleMajorReleases",
+    "schedule:earlyMondays",
+    "schedule:automergeDaily",
+    ":prConcurrentLimitNone",
+    ":prHourlyLimitNone",
+    ":timezone(Asia/Tokyo)"
+  ],
+  "labels": ["renovate"],
+  "enabledManagers": ["npm"],
+  "major": { "labels": ["renovate", "update_major"] },
+  "platformAutomerge": true,
+  "packageRules": [
+    {
+      "description": "Automerge non-major updates",
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
+      "matchPackageNames": [
+        "jest-openapi",
+        "openapi-validator",
+        "@tsconfig/node16",
+        "@tsconfig/recommended",
+        "@types/fs-extra",
+        "@typescript-eslint/eslint-plugin",
+        "@typescript-eslint/parser",
+        "@vitest/coverage-v8",
+        "app-root-path",
+        "eslint",
+        "eslint-config-airbnb-base",
+        "eslint-config-airbnb-typescript",
+        "eslint-config-prettier",
+        "eslint-plugin-import",
+        "fs-extra",
+        "npm-check-updates",
+        "npm-run-all",
+        "prettier",
+        "typescript",
+        "vitest"
+      ],
+      "rangeStrategy": "bump"
+    }
+  ],
+  "ignoreDeps": []
 }

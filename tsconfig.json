@@ -1,10 +1,10 @@
 {
-	"extends": ["@tsconfig/recommended/tsconfig.json", "@tsconfig/node16/tsconfig.json"],
-	"compilerOptions": {
-		"declaration": true,
-		"sourceMap": true,
-		"outDir": "dist"
-	},
-	"include": ["index.ts"],
-	"exclude": ["node_modules", "dist"]
+  "extends": ["@tsconfig/recommended/tsconfig.json", "@tsconfig/node16/tsconfig.json"],
+  "compilerOptions": {
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules", "dist"]
 }

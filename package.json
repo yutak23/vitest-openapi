@@ -1,66 +1,66 @@
 {
-	"name": "vitest-openapi",
-	"version": "1.0.3",
-	"author": "yutak23 <yuta.katayama.23+github@gmail.com> (https://github.com/yutak23)",
-	"repository": {
-		"type": "git",
-		"url": "git+ssh://git@github.com:yutak23/vitest-openapi.git"
-	},
-	"engines": {
-		"node": ">=16.0.0"
-	},
-	"license": "MIT",
-	"type": "module",
-	"types": "./dist/index.d.ts",
-	"main": "./dist/index.js",
-	"scripts": {
-		"build": "run-s lint clean tsc",
-		"tsc": "tsc -p ./tsconfig.json",
-		"clean": "rm -rf ./dist",
-		"test": "vitest run --coverage",
-		"lint": "eslint . --ext .cjs,.mjs,.js,.ts,.cts,.mts",
-		"lint:fix": "eslint . --ext .cjs,.mjs,.js,.ts,.cts,.mts --fix",
-		"format": "prettier -c .",
-		"format:fix": "prettier --write .",
-		"ncu": "ncu"
-	},
-	"dependencies": {
-		"jest-openapi": "^0.14.2",
-		"openapi-validator": "^0.14.2"
-	},
-	"devDependencies": {
-		"@tsconfig/node16": "^16.1.5",
-		"@tsconfig/recommended": "^1.0.10",
-		"@types/fs-extra": "^11.0.4",
-		"@typescript-eslint/eslint-plugin": "^7.18.0",
-		"@typescript-eslint/parser": "^7.18.0",
-		"@vitest/coverage-v8": "^3.2.4",
-		"app-root-path": "^3.1.0",
-		"eslint": "^8.57.1",
-		"eslint-config-airbnb-base": "^15.0.0",
-		"eslint-config-airbnb-typescript": "^18.0.0",
-		"eslint-config-prettier": "^9.1.2",
-		"eslint-plugin-import": "^2.32.0",
-		"fs-extra": "^11.3.2",
-		"npm-check-updates": "^17.1.18",
-		"npm-run-all2": "^7.0.0",
-		"prettier": "^3.6.2",
-		"typescript": "^5.9.3",
-		"vitest": "^3.2.4"
-	},
-	"files": [
-		"dist"
-	],
-	"keywords": [
-		"js",
-		"javascript",
-		"ts",
-		"typescript",
-		"vitest",
-		"openapi",
-		"testing",
-		"response",
-		"validate",
-		"assertions"
-	]
+  "name": "vitest-openapi",
+  "version": "1.0.3",
+  "author": "yutak23 <yuta.katayama.23+github@gmail.com> (https://github.com/yutak23)",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:yutak23/vitest-openapi.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "MIT",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "run-s lint clean tsc",
+    "tsc": "tsc -p ./tsconfig.json",
+    "clean": "rm -rf ./dist",
+    "test": "vitest run --coverage",
+    "lint": "eslint . --ext .cjs,.mjs,.js,.ts,.cts,.mts",
+    "lint:fix": "eslint . --ext .cjs,.mjs,.js,.ts,.cts,.mts --fix",
+    "format": "prettier -c .",
+    "format:fix": "prettier --write .",
+    "ncu": "ncu"
+  },
+  "dependencies": {
+    "jest-openapi": "^0.14.2",
+    "openapi-validator": "^0.14.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^16.1.5",
+    "@tsconfig/recommended": "^1.0.10",
+    "@types/fs-extra": "^11.0.4",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "app-root-path": "^3.1.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-config-prettier": "^9.1.2",
+    "eslint-plugin-import": "^2.32.0",
+    "fs-extra": "^11.3.2",
+    "npm-check-updates": "^17.1.18",
+    "npm-run-all2": "^7.0.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "js",
+    "javascript",
+    "ts",
+    "typescript",
+    "vitest",
+    "openapi",
+    "testing",
+    "response",
+    "validate",
+    "assertions"
+  ]
 }
