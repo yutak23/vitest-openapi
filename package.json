@@ -29,7 +29,7 @@
 		"openapi-validator": "^0.14.2"
 	},
 	"devDependencies": {
-		"@tsconfig/node16": "^16.1.5",
+		"@tsconfig/node16": "^16.1.6",
 		"@tsconfig/recommended": "^1.0.10",
 		"@types/fs-extra": "^11.0.4",
 		"@typescript-eslint/eslint-plugin": "^7.18.0",

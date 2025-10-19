@@ -422,10 +422,10 @@
   resolved "https://registry.yarnpkg.com/@rtsao/scc/-/scc-1.1.0.tgz#927dd2fae9bc3361403ac2c7a00c32ddce9ad7e8"
   integrity sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==
 
-"@tsconfig/node16@^16.1.5":
-  version "16.1.5"
-  resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-16.1.5.tgz#27c7a782acbfbe2d58c838312b77f4852ec87794"
-  integrity sha512-P4GBZdpi6i5NGB12pwLH4oAIPrxl1ZvD8gxA4E7VdUUCik34J7FerrxzoDXtT4ugbrRjLbK5WuHPOUNZJOxuaQ==
+"@tsconfig/node16@^16.1.6":
+  version "16.1.6"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-16.1.6.tgz#4119f1c6e6132ae54f466ed27de4ed0df9bb25b9"
+  integrity sha512-QXflIthykZUjZMUWp3sKQP8Pikqtncs2KF0iulzsEHXeQI58FH7ypJYHvYEM1CP0RtkNAC70FQOXssQJB+ZZ0Q==
 
 "@tsconfig/recommended@^1.0.10":
   version "1.0.10"
