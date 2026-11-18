@@ -422,15 +422,15 @@
   resolved "https://registry.yarnpkg.com/@rtsao/scc/-/scc-1.1.0.tgz#927dd2fae9bc3361403ac2c7a00c32ddce9ad7e8"
   integrity sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==
 
-"@tsconfig/node16@^16.1.9":
-  version "16.1.9"
-  resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-16.1.9.tgz#b6c9428bab9e7595dc0552600239c5f5f8eab90f"
-  integrity sha512-vzI9adb8N9w0/LS15qTfOAdi+QndGxjhOr7mXOrZ/aqCnkVvjc7O5k9uSyhf+Yb+5E3+17valm7CNscs5QNkmg==
+"@tsconfig/node16@^16.1.10":
+  version "16.1.10"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-16.1.10.tgz#1100280ca7ea697df057d4c18c56b686a343a5e1"
+  integrity sha512-gC97BKqPKPeIueEiXs1xdmlPlnX5NBwf95z2VXzR7+ff4O3nakPt0yBaCiuFDNUuVnJVrDs0GEbX+lUP4iyfWQ==
 
-"@tsconfig/recommended@^1.0.13":
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/@tsconfig/recommended/-/recommended-1.0.13.tgz#269fce3ad04ca70b93269ff44cca81b950f542da"
-  integrity sha512-sySRuBfMKyKO/j2ZAhR8kSembhjuPEV4Ra3AHtmWLq51+iGaudr45crPSzNC5b7/Ctrh9dfUpBuTlYrH6rM58Q==
+"@tsconfig/recommended@^1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@tsconfig/recommended/-/recommended-1.0.14.tgz#2b55d61ded2441cb1c882d6f73f05d59b8d8033c"
+  integrity sha512-iYgWhyVNgsxXiflM97anZ6sVmKTmcMSCL9x7RutV7owLOb8b+hmLPtmd6wqeKvvkaWa4Zx4eOWfn56Fc2KMHrA==
 
 "@types/caseless@*":
   version "0.12.3"
@@ -3143,10 +3143,10 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prettier@^3.9.10:
-  version "3.9.10"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.9.10.tgz#ac378e432f1a7381518f2e080816bbaefa38d585"
-  integrity sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==
+prettier@^3.10.1:
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.10.1.tgz#00b1c1872f9650ec22093d5bdafdca0fe6760f77"
+  integrity sha512-70vp3ZUYoPlFbF9uiTdXHUUCGEIp7d4+6p+8DYbkm2jP7x/3i/paXVF6dopSI3zd/CEitrZN1rc4i85xWmmXlg==
 
 pretty-format@^26.6.2:
   version "26.6.2"
